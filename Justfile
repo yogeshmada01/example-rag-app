@@ -50,7 +50,7 @@ graph:
 
 # Start data ingestion pipeline with **Marimo**
 create-collection:
-  @uvx marimo edit --sandbox infra/qdrant/create_collection.py
+  @uvx marimo edit --sandbox notebooks/create_collection.py
 
 # `build` or `run` the project container with `args`
 container cmd *args:
